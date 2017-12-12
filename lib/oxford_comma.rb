@@ -4,5 +4,6 @@ def oxford_comma(array)
   y = 0
   while y < x do
     array[y] << ","
+    y += 1
   end
 end
