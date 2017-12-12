@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  if array.length > 1
   array.insert(-2, 'and')
     x = array.length - 2
     y = 0
