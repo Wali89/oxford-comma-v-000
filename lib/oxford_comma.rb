@@ -6,4 +6,6 @@ def oxford_comma(array)
     array[y] << ","
     y += 1
   end
+  array.join(" ")
+
 end
