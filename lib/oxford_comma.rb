@@ -11,13 +11,7 @@ def oxford_comma(array)
     coma
 
   elsif array.length == 2
-    array.insert(-2, 'and')
-      x = array.length - 2
-      y = 0
-      while y < x do
-        array[y] << ","
-        y += 1
-      end
+    array.insert(1, 'and')
       coma = array.join(" ")
       coma
 
