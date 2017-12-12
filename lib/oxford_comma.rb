@@ -10,6 +10,6 @@ def oxford_comma(array)
     coma = array.join(" ")
     coma
   else
-    array
+    array[0]
   end
 end
